@@ -100,7 +100,7 @@ function Home() {
           </h1>
         </div>
         <div className="flex flex-col justify-start items-start  ">
-          <article className="flex justify-between items-center p-10   mt-5  border-b-2 mx-3 ">
+          <article className="flex justify-between flex-wrap items-center p-10   mt-5  border-b-2 mx-3 ">
             <img src="./assets/wbt.png" alt="wbt" className="w-[30%]" />
             <p className="text-yellow-800 font-bold">
               Nous organisons vos mariages The term Lorem ipsum refers to those
@@ -114,7 +114,7 @@ function Home() {
               className="ml-5 cursor-pointer rounded-full"
             />
           </article>
-          <article className="flex justify-between items-center p-10  mt-10  border-b-2 mx-3">
+          <article className="flex justify-between flex-wrap items-center p-10  mt-10  border-b-2 mx-3">
             <img src="./assets/tsgn.png" alt="wbt" className="w-[25%] px-2 " />
             <p className="text-yellow-800 font-bold">
               Oeuvre de charite The term Lorem ipsum refers to those texts which
@@ -125,7 +125,7 @@ function Home() {
             </p>
             <GrLinkNext size={90} className="ml-5 cursor-pointer" />
           </article>
-          <article className="flex justify-between items-center p-10  mt-5  border-b-2 mx-3">
+          <article className="flex justify-between flex-wrap items-center p-10  mt-5  border-b-2 mx-3">
             <img src="./assets/empire.png" alt="wbt" className="w-[30%]" />
             <p className="text-yellow-800 font-bold">
               Nos chevres du kongo central sont hereux lol The term Lorem ipsum
@@ -136,8 +136,8 @@ function Home() {
             </p>
             <GrLinkNext size={90} className="ml-5 cursor-pointer" />
           </article>
-          <article className="flex justify-between items-center p-10 mt-10  border-b-2 mx-3 ">
-            <img src="./assets/drepa.png" alt="wbt" className="w-[30%]" />
+          <article className="flex justify-between flex-wrap items-center p-10 mt-10  border-b-2 mx-3 ">
+            <img src="../assets/drepa.png" alt="wbt" className="w-[30%]" />
             <p className="text-yellow-800 font-bold">
               Projet de sensibilisation, depistage et accompagnement des malades
               drepanocytairesThe term Lorem ipsum refers to those texts which
@@ -148,7 +148,7 @@ function Home() {
             </p>
             <GrLinkNext size={90} className="ml-5 cursor-pointer" />
           </article>
-          <article className="flex justify-between items-center p-10 mt-10  border-b-2 mx-3 ">
+          <article className="flex justify-between flex-wrap items-center p-10 mt-10  border-b-2 mx-3 ">
             <img src="./assets/acacia.png" alt="wbt" className="w-[20%]" />
             <p className="text-yellow-800 font-bold">
               Etudier en Europe devient plus facilesThe term Lorem ipsum refers
