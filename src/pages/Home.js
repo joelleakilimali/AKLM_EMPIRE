@@ -30,10 +30,10 @@ function Home() {
     </div>,
   ];
   return (
-    <div>
+    <div className=" bg-gradient-to-r from-indigo-500  ">
       <Header />
-      <div className="mt-16 conic-gradient(at left center, rgb(136, 19, 55), rgb(146, 64, 14), rgb(251, 113, 133))">
-        <div className="flex justify-between items-center border-2 px-2 mx-10 border-y-yellow-400 border-x-white ">
+      <div className="  mt-16 conic-gradient(at left center, rgb(136, 19, 55), rgb(146, 64, 14), rgb(251, 113, 133))">
+        <div className="flex justify-between items-center bpx-2 mx-10 ">
           <div>
             <p className="text-3xl w-[80%] font-bold text-yellow-800">
               L'empire AKILIMALI est un empire qui offre des services dans le
@@ -50,10 +50,10 @@ function Home() {
           Nos Services
         </h1>
       </div>
-      <div className="mt-5 p-10 h-[450px] bg-black text-white">
+      <div className="mt-5 p-5 bg-black text-white">
         <div>
-          <div className=" flex items-center justify-evenly text-xl ">
-            <div>
+          <div className=" flex flex-row items-center  justify-evenly text-xl ">
+            <div className="w-[35%]">
               <div>
                 <h1 className="text-yellow-500 font-bold">ELEVAGE</h1>
                 <h1 className="cursor-pointer p-2 ">La Ferme kongo central</h1>
@@ -62,31 +62,39 @@ function Home() {
                 <h1 className="text-yellow-500 font-bold">CHARITE</h1>
 
                 <h1 className="cursor-pointer p-2 ">Tosungana na bomoko </h1>
-                <h1 className="cursor-pointer p-2 ">Drepa-Over </h1>
               </div>
               <div>
                 <h1 className="text-yellow-500 font-bold">Mariage</h1>
                 <h1 className="cursor-pointer p-2 ">We belong together </h1>
               </div>
             </div>
-            <div className=" ">
+            <div className="w-[35%]">
               <div>
                 <h1 className="text-yellow-500 font-bold">PARFUMERIE</h1>
                 <h1 className="cursor-pointer p-2 ">JOe</h1>
               </div>
               <div>
-                <h1 className="text-yellow-500 font-bold">
-                  Production Musical et Annimation
-                </h1>
-                <h1 className="cursor-pointer p-2 ">Benj & AIM music</h1>
-              </div>
-              <div>
                 <h1 className="text-yellow-500 font-bold">AGENCE DE VOYAGE</h1>
-                <h1 className="cursor-pointer p-2 ">Acacia</h1>
+
+                <h1 className="cursor-pointer p-2 ">Acacia Academics </h1>
               </div>
               <div>
                 <h1 className="text-yellow-500 font-bold">BOUTIQUE</h1>
-                <h1 className="cursor-pointer p-2 ">Eben Ezer Boutique</h1>
+                <h1 className="cursor-pointer p-2 ">Eben ezer </h1>
+              </div>
+            </div>
+            <div className="w-[35%] ">
+              <div>
+                <h1 className="text-yellow-500 font-bold">PARFUMERIE</h1>
+                <h1 className="cursor-pointer p-2 ">JOe</h1>
+              </div>
+              <div>
+                <h1 className="text-yellow-500 font-bold">ASSOCIATION</h1>
+                <h1 className="cursor-pointer p-2 ">Drepa-Over</h1>
+              </div>
+              <div>
+                <h1 className="text-yellow-500 font-bold">Animation-Musique</h1>
+                <h1 className="cursor-pointer p-2 ">Benj & AIM musi </h1>
               </div>
             </div>
           </div>
@@ -116,9 +124,9 @@ function Home() {
 
             <div className="flex items-center justify-center">
               <GrLinkNext
-                size={30}
+                size={60}
                 color="yellow"
-                className="ml-5 cursor-pointer rounded-full"
+                className="ml-5 cursor-pointer rounded-full bg-yellow-400 p-4"
               />
             </div>
           </div>
@@ -139,9 +147,9 @@ function Home() {
 
             <div className="flex items-center justify-center">
               <GrLinkNext
-                size={30}
+                size={60}
                 color="yellow"
-                className="ml-5 cursor-pointer rounded-full"
+                className="ml-5 cursor-pointer rounded-full bg-yellow-400 p-4"
               />
             </div>
           </div>
@@ -162,9 +170,9 @@ function Home() {
 
             <div className="flex items-center justify-center">
               <GrLinkNext
-                size={30}
+                size={60}
                 color="yellow"
-                className="ml-5 cursor-pointer rounded-full"
+                className="ml-5 cursor-pointer rounded-full bg-yellow-400 p-4"
               />
             </div>
           </div>
@@ -185,15 +193,19 @@ function Home() {
 
             <div className="flex items-center justify-center">
               <GrLinkNext
-                size={30}
+                size={60}
                 color="yellow"
-                className="ml-5 cursor-pointer rounded-full"
+                className="ml-5 cursor-pointer rounded-full bg-yellow-400 p-4"
               />
             </div>
           </div>
           <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
             <div className="flex justify-center">
-              <img src="../assets/acacia.png" alt="wbt" className="w-[50%]" />
+              <img
+                src="../assets/Acacia-PNG.png"
+                alt="wbt"
+                className="w-[50%]"
+              />
             </div>
             <div className="flex justify-center">
               <h1 className="text-yellow-800 pt-2  w-[80%] font-bold">
@@ -207,9 +219,9 @@ function Home() {
 
             <div className="flex items-center justify-center">
               <GrLinkNext
-                size={30}
+                size={60}
                 color="yellow"
-                className="ml-5 cursor-pointer rounded-full"
+                className="ml-5 cursor-pointer rounded-full bg-yellow-400 p-4"
               />
             </div>
           </div>
