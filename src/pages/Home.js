@@ -50,7 +50,7 @@ function Home() {
           Nos Services
         </h1>
       </div>
-      <div className="mt-5 p-5 bg-black text-white">
+      <div className="mt-5 p-5 text-white">
         <div>
           <div className=" flex flex-row items-center  justify-evenly text-xl ">
             <div className="w-[35%]">
