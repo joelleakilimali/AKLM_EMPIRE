@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import { GiGrLinkNextGoat, GrLinkNext } from "react-icons/gr";
-
+import "./home.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { Carousel } from "react-responsive-carousel";
@@ -50,53 +50,44 @@ function Home() {
           Nos Services
         </h1>
       </div>
-      <div className="mt-5 p-5 text-white">
-        <div>
-          <div className=" flex flex-row items-center  justify-evenly text-xl ">
-            <div className="w-[35%]">
-              <div>
-                <h1 className="text-yellow-500 font-bold">ELEVAGE</h1>
-                <h1 className="cursor-pointer p-2 ">La Ferme kongo central</h1>
-              </div>
-              <div>
-                <h1 className="text-yellow-500 font-bold">CHARITE</h1>
+      <div className="mt-5 p-5 text-black">
+        <div className=" box text-xl ">
+          <div className="innerBox">
+            <h1 className="text-yellow-500 font-bold">ELEVAGE</h1>
+            <h1 className="cursor-pointer p-2 ">La Ferme kongo central</h1>
+          </div>
+          <div className="innerBox">
+            <h1 className="text-yellow-500 font-bold">CHARITE</h1>
+            <h1 className="cursor-pointer p-2 ">Tosungana na bomoko </h1>
+          </div>
+          <div className="innerBox">
+            <h1 className="text-yellow-500 font-bold">AGENCE DE VOYAGE</h1>
+            <h1 className="cursor-pointer p-2 ">Acacia Academics </h1>
+          </div>
+          <div className="innerBox">
+            <h1 className="text-yellow-500 font-bold">Mariage</h1>
+            <h1 className="cursor-pointer p-2 ">We belong together </h1>
+          </div>
+          <div className="innerBox">
+            <h1 className="text-yellow-500 font-bold">PARFUMERIE</h1>
+            <h1 className="cursor-pointer p-2 ">JOe</h1>
+          </div>
 
-                <h1 className="cursor-pointer p-2 ">Tosungana na bomoko </h1>
-              </div>
-              <div>
-                <h1 className="text-yellow-500 font-bold">Mariage</h1>
-                <h1 className="cursor-pointer p-2 ">We belong together </h1>
-              </div>
-            </div>
-            <div className="w-[35%]">
-              <div>
-                <h1 className="text-yellow-500 font-bold">PARFUMERIE</h1>
-                <h1 className="cursor-pointer p-2 ">JOe</h1>
-              </div>
-              <div>
-                <h1 className="text-yellow-500 font-bold">AGENCE DE VOYAGE</h1>
-
-                <h1 className="cursor-pointer p-2 ">Acacia Academics </h1>
-              </div>
-              <div>
-                <h1 className="text-yellow-500 font-bold">BOUTIQUE</h1>
-                <h1 className="cursor-pointer p-2 ">Eben ezer </h1>
-              </div>
-            </div>
-            <div className="w-[35%] ">
-              <div>
-                <h1 className="text-yellow-500 font-bold">PARFUMERIE</h1>
-                <h1 className="cursor-pointer p-2 ">JOe</h1>
-              </div>
-              <div>
-                <h1 className="text-yellow-500 font-bold">ASSOCIATION</h1>
-                <h1 className="cursor-pointer p-2 ">Drepa-Over</h1>
-              </div>
-              <div>
-                <h1 className="text-yellow-500 font-bold">Animation-Musique</h1>
-                <h1 className="cursor-pointer p-2 ">Benj & AIM musi </h1>
-              </div>
-            </div>
+          <div className="innerBox">
+            <h1 className="text-yellow-500 font-bold">Animation-Musique</h1>
+            <h1 className="cursor-pointer p-2 ">Benj & AIM musi </h1>
+          </div>
+          <div className="innerBox">
+            <h1 className="text-yellow-500 font-bold">AGENCE DE VOYAGE</h1>
+            <h1 className="cursor-pointer p-2 ">Acacia Academics </h1>
+          </div>
+          <div className="innerBox">
+            <h1 className="text-yellow-500 font-bold">ASSOCIATION</h1>
+            <h1 className="cursor-pointer p-2 ">Drepa-Over</h1>
+          </div>
+          <div className="innerBox">
+            <h1 className="text-yellow-500 font-bold">BOUTIQUE</h1>
+            <h1 className="cursor-pointer p-2 ">Eben ezer </h1>
           </div>
         </div>
       </div>
@@ -110,7 +101,7 @@ function Home() {
         <div className="flex flex-col justify-start items-start  ">
           <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
             <div className="flex justify-center">
-              <img src="../assets/tsgn.png" alt="wbt" className="w-[50%]" />
+              <img src="../assets/atblogo.jpg" alt="wbt" className="w-[30%]" />
             </div>
             <div className="flex justify-center">
               <h1 className="text-yellow-800 pt-2  w-[80%] font-bold">
@@ -133,7 +124,7 @@ function Home() {
 
           <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
             <div className="flex justify-center">
-              <img src="../assets/wbt.png" alt="wbt" className="w-[70%]" />
+              <img src="../assets/webelong.png" alt="wbt" className="w-[30%]" />
             </div>
             <div className="flex justify-center">
               <h1 className="text-yellow-800  w-[80%] font-bold">
@@ -155,7 +146,11 @@ function Home() {
           </div>
           <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
             <div className="flex justify-center">
-              <img src="../assets/empire.png" alt="wbt" className="w-[70%]" />
+              <img
+                src="../assets/Empire-Akilimali-LogoDesign.png"
+                alt="wbt"
+                className="w-[30%]"
+              />
             </div>
             <div className="flex justify-center">
               <h1 className="text-yellow-800  w-[80%] font-bold">
