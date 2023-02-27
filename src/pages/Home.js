@@ -52,7 +52,7 @@ function Home() {
       </div>
       <div className="mt-5 p-10 h-[450px] bg-black text-white">
         <div>
-          <div className=" flex items-center justify-around text-xl ">
+          <div className=" flex items-center justify-evenly text-xl ">
             <div>
               <div>
                 <h1 className="text-yellow-500 font-bold">ELEVAGE</h1>
@@ -100,65 +100,119 @@ function Home() {
           </h1>
         </div>
         <div className="flex flex-col justify-start items-start  ">
-          <article className="flex justify-between flex-wrap items-center p-10   mt-5  border-b-2 mx-3 ">
-            <img src="./assets/wbt.png" alt="wbt" className="w-[30%]" />
-            <p className="text-yellow-800 font-bold">
-              Nous organisons vos mariages The term Lorem ipsum refers to those
-              texts which are incomprehensible, i.e. no one can make any logical
-              sense out of them, and they are created with the aim of presenting
-              to the reader only the graphic features, in themselves, of a text
-              or a visual presentation and
-            </p>
-            <GrLinkNext
-              size={90}
-              className="ml-5 cursor-pointer rounded-full"
-            />
-          </article>
-          <article className="flex justify-between flex-wrap items-center p-10  mt-10  border-b-2 mx-3">
-            <img src="./assets/tsgn.png" alt="wbt" className="w-[25%] px-2 " />
-            <p className="text-yellow-800 font-bold">
-              Oeuvre de charite The term Lorem ipsum refers to those texts which
-              are incomprehensible, i.e. no one can make any logical sense out
-              of them, and they are created with the aim of presenting to the
-              reader only the graphic features, in themselves, of a text or a
-              visual presentation and
-            </p>
-            <GrLinkNext size={90} className="ml-5 cursor-pointer" />
-          </article>
-          <article className="flex justify-between flex-wrap items-center p-10  mt-5  border-b-2 mx-3">
-            <img src="./assets/empire.png" alt="wbt" className="w-[30%]" />
-            <p className="text-yellow-800 font-bold">
-              Nos chevres du kongo central sont hereux lol The term Lorem ipsum
-              refers to those texts which are incomprehensible, i.e. no one can
-              make any logical sense out of them, and they are created with the
-              aim of presenting to the reader only the graphic features, in
-              themselves, of a text or a visual presentation and
-            </p>
-            <GrLinkNext size={90} className="ml-5 cursor-pointer" />
-          </article>
-          <article className="flex justify-between flex-wrap items-center p-10 mt-10  border-b-2 mx-3 ">
-            <img src="../assets/drepa.png" alt="wbt" className="w-[30%]" />
-            <p className="text-yellow-800 font-bold">
-              Projet de sensibilisation, depistage et accompagnement des malades
-              drepanocytairesThe term Lorem ipsum refers to those texts which
-              are incomprehensible, i.e. no one can make any logical sense out
-              of them, and they are created with the aim of presenting to the
-              reader only the graphic features, in themselves, of a text or a
-              visual presentation and
-            </p>
-            <GrLinkNext size={90} className="ml-5 cursor-pointer" />
-          </article>
-          <article className="flex justify-between flex-wrap items-center p-10 mt-10  border-b-2 mx-3 ">
-            <img src="./assets/acacia.png" alt="wbt" className="w-[20%]" />
-            <p className="text-yellow-800 font-bold">
-              Etudier en Europe devient plus facilesThe term Lorem ipsum refers
-              to those texts which are incomprehensible, i.e. no one can make
-              any logical sense out of them, and they are created with the aim
-              of presenting to the reader only the graphic features, in
-              themselves, of a text or a visual presentation and
-            </p>
-            <GrLinkNext size={90} className="ml-5 cursor-pointer" />
-          </article>
+          <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
+            <div className="flex justify-center">
+              <img src="../assets/tsgn.png" alt="wbt" className="w-[50%]" />
+            </div>
+            <div className="flex justify-center">
+              <h1 className="text-yellow-800 pt-2  w-[80%] font-bold">
+                Oeuvre de charite The term Lorem ipsum refers to those texts
+                which are incomprehensible, i.e. no one can make any logical
+                sense out of them, and they are created with the aim of
+                presenting to the reader only the graphic features, in
+                themselves, of a text or a visual presentation and
+              </h1>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <GrLinkNext
+                size={30}
+                color="yellow"
+                className="ml-5 cursor-pointer rounded-full"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
+            <div className="flex justify-center">
+              <img src="../assets/wbt.png" alt="wbt" className="w-[70%]" />
+            </div>
+            <div className="flex justify-center">
+              <h1 className="text-yellow-800  w-[80%] font-bold">
+                Nous organisons vos mariages The term Lorem ipsum refers to
+                those texts which are incomprehensible, i.e. no one can make any
+                logical sense out of them, and they are created with the aim of
+                presenting to the reader only the graphic features, in
+                themselves, of a text or a visual presentation and
+              </h1>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <GrLinkNext
+                size={30}
+                color="yellow"
+                className="ml-5 cursor-pointer rounded-full"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
+            <div className="flex justify-center">
+              <img src="../assets/empire.png" alt="wbt" className="w-[70%]" />
+            </div>
+            <div className="flex justify-center">
+              <h1 className="text-yellow-800  w-[80%] font-bold">
+                Nos chevres du kongo central sont heureux malades
+                drepanocytairesThe term Lorem ipsum refers to those texts which
+                are incomprehensible, i.e. no one can make any logical sense out
+                of them, and they are created with the aim of presenting to the
+                reader only the graphic features, in themselves, of a text or a
+                visual presentation and
+              </h1>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <GrLinkNext
+                size={30}
+                color="yellow"
+                className="ml-5 cursor-pointer rounded-full"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
+            <div className="flex justify-center">
+              <img src="../assets/drepa.png" alt="wbt" className="w-[50%]" />
+            </div>
+            <div className="flex justify-center">
+              <h1 className="text-yellow-800 pt-2  w-[80%] font-bold">
+                Projet de sensibilisation, depistage et accompagnement des
+                malades drepanocytairesThe term Lorem ipsum refers to those
+                texts which are incomprehensible, i.e. no one can make any
+                logical sense out of them, and they are created with the aim of
+                presenting to the reader only the graphic features, in
+                themselves, of a text or a visual presentation and
+              </h1>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <GrLinkNext
+                size={30}
+                color="yellow"
+                className="ml-5 cursor-pointer rounded-full"
+              />
+            </div>
+          </div>
+          <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
+            <div className="flex justify-center">
+              <img src="../assets/acacia.png" alt="wbt" className="w-[50%]" />
+            </div>
+            <div className="flex justify-center">
+              <h1 className="text-yellow-800 pt-2  w-[80%] font-bold">
+                Poursuivre ses etudes en Europe devient un jeux d'enfant avec
+                acacia academics i.e. no one can make any logical sense out of
+                them, and they are created with the aim of presenting to the
+                reader only the graphic features, in themselves, of a text or a
+                visual presentation and
+              </h1>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <GrLinkNext
+                size={30}
+                color="yellow"
+                className="ml-5 cursor-pointer rounded-full"
+              />
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
