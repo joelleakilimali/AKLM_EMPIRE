@@ -1,5 +1,6 @@
 .box {
   display: flex;
+
   flex-wrap: wrap;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-template-columns: auto auto auto;

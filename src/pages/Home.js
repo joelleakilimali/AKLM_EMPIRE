@@ -51,7 +51,7 @@ function Home() {
         </h1>
       </div>
       <div className="mt-5 p-5 text-black">
-        <div className=" box text-xl ">
+        <div className=" box justify-center text-xl ">
           <div className="innerBox">
             <h1 className="text-yellow-500 font-bold">ELEVAGE</h1>
             <h1 className="cursor-pointer p-2 ">La Ferme kongo central</h1>
