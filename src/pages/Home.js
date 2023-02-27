@@ -30,18 +30,16 @@ function Home() {
     </div>,
   ];
   return (
-    <div className=" bg-gradient-to-r from-indigo-500  ">
+    <div className=" flex flex-col justify-center bg-gradient-to-tr from-zinc-900 to-sky-900 ">
       <Header />
       <div className="  mt-16 conic-gradient(at left center, rgb(136, 19, 55), rgb(146, 64, 14), rgb(251, 113, 133))">
-        <div className="flex justify-between items-center bpx-2 mx-10 ">
+        <div className="flex justify-start items-center px-2 mx-10 mb-24 ">
           <div>
-            <p className="text-3xl w-[80%] font-bold text-yellow-800">
+            <p className="text-3xl w-[70%] font-bold text-white">
               L'empire AKILIMALI est un empire qui offre des services dans le
-              multi sectoriel
+              multi sectorielThere is no one who loves pain itself, who seeks
+              after it and wants to have it, simply because it is pain..
             </p>
-          </div>
-          <div className="flex flex-row-reverse">
-            <img src="../assets/empl.png" alt="logo" className="w-[70%]" />
           </div>
         </div>
       </div>
@@ -50,7 +48,7 @@ function Home() {
           Nos Services
         </h1>
       </div>
-      <div className="mt-5 p-5 text-black">
+      <div className="mt-5 p-5 text-white">
         <div className=" box justify-center text-xl ">
           <div className="innerBox">
             <h1 className="text-yellow-500 font-bold">ELEVAGE</h1>
@@ -101,10 +99,10 @@ function Home() {
         <div className="flex flex-col justify-start items-start  ">
           <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
             <div className="flex justify-center">
-              <img src="../assets/atblogo.jpg" alt="wbt" className="w-[30%]" />
+              <img src="../assets/atblogo.jpg" alt="wbt" className="w-[40%]" />
             </div>
             <div className="flex justify-center">
-              <h1 className="text-yellow-800 pt-2  w-[80%] font-bold">
+              <h1 className="text-white pt-2  w-[80%] font-bold">
                 Oeuvre de charite The term Lorem ipsum refers to those texts
                 which are incomprehensible, i.e. no one can make any logical
                 sense out of them, and they are created with the aim of
@@ -124,10 +122,10 @@ function Home() {
 
           <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
             <div className="flex justify-center">
-              <img src="../assets/webelong.png" alt="wbt" className="w-[30%]" />
+              <img src="../assets/webelong.png" alt="wbt" className="w-[40%]" />
             </div>
             <div className="flex justify-center">
-              <h1 className="text-yellow-800  w-[80%] font-bold">
+              <h1 className="text-white  w-[80%] font-bold">
                 Nous organisons vos mariages The term Lorem ipsum refers to
                 those texts which are incomprehensible, i.e. no one can make any
                 logical sense out of them, and they are created with the aim of
@@ -149,11 +147,11 @@ function Home() {
               <img
                 src="../assets/Empire-Akilimali-LogoDesign.png"
                 alt="wbt"
-                className="w-[30%]"
+                className="w-[40%]"
               />
             </div>
             <div className="flex justify-center">
-              <h1 className="text-yellow-800  w-[80%] font-bold">
+              <h1 className="text-white w-[80%] font-bold">
                 Nos chevres du kongo central sont heureux malades
                 drepanocytairesThe term Lorem ipsum refers to those texts which
                 are incomprehensible, i.e. no one can make any logical sense out
@@ -173,10 +171,10 @@ function Home() {
           </div>
           <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
             <div className="flex justify-center">
-              <img src="../assets/drepa.png" alt="wbt" className="w-[50%]" />
+              <img src="../assets/over.jpg" alt="wbt" className="w-[50%]" />
             </div>
             <div className="flex justify-center">
-              <h1 className="text-yellow-800 pt-2  w-[80%] font-bold">
+              <h1 className="text-white pt-2  w-[80%] font-bold">
                 Projet de sensibilisation, depistage et accompagnement des
                 malades drepanocytairesThe term Lorem ipsum refers to those
                 texts which are incomprehensible, i.e. no one can make any
@@ -203,7 +201,7 @@ function Home() {
               />
             </div>
             <div className="flex justify-center">
-              <h1 className="text-yellow-800 pt-2  w-[80%] font-bold">
+              <h1 className="text-white pt-2  w-[80%] font-bold">
                 Poursuivre ses etudes en Europe devient un jeux d'enfant avec
                 acacia academics i.e. no one can make any logical sense out of
                 them, and they are created with the aim of presenting to the
