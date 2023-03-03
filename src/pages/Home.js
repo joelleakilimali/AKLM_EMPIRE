@@ -39,7 +39,7 @@ function Home() {
       <div className="  mt-16 conic-gradient(at left center, rgb(136, 19, 55), rgb(146, 64, 14), rgb(251, 113, 133))">
         <div className="flex justify-start items-center p-10 mx-5 mb-24 ">
           <div className="flex justify-center">
-            <p className="text-4xl w-[70%] font-bold text-white">
+            <p className="text-4xl w-[800%] font-bold text-white">
               L'empire AKILIMALI est un empire qui offre des services dans le
               multi sectoriel There is no one who loves pain itself, who seeks
               after it and wants to have it, simply because it is pain..
