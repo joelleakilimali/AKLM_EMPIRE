@@ -103,7 +103,7 @@ function Home() {
         <div className="flex flex-col justify-start items-start  ">
           <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
             <div className="flex justify-center">
-              <img src="../assets/atblogo.jpg" alt="wbt" className="w-[40%]" />
+              <img src="../assets/atblogo.jpg" alt="wbt" className="w-[50%]" />
             </div>
             <div className="flex justify-center">
               <h1 className="text-black pt-2  w-[80%] font-bold">
@@ -126,7 +126,7 @@ function Home() {
 
           <div className="flex flex-col justify-center align-middle  items-center p-10  mt-5 w-full border-b-2 mx-3">
             <div className="flex justify-center">
-              <img src="../assets/webelong.png" alt="wbt" className="w-[40%]" />
+              <img src="../assets/webelong.png" alt="wbt" className="w-[50%]" />
             </div>
             <div className="flex justify-center">
               <h1 className="text-black  w-[80%] font-bold">
@@ -151,7 +151,7 @@ function Home() {
               <img
                 src="../assets/Empire-Akilimali-LogoDesign.png"
                 alt="wbt"
-                className="w-[40%]"
+                className="w-[30%]"
               />
             </div>
             <div className="flex justify-center">
@@ -254,19 +254,15 @@ function Home() {
             </button>
           </div>
         </div>
-        <div className="flex justify-between my-5">
-          <div className="flex text-white items-center m-2">
+        <div className="flex justify-around my-5 cursor-pointer flex-wrap">
+          <div className="flex text-white items-center m-2 flex-col bg-white p-20">
             <FaHandshake size={30} color="orange" />
 
-            <h1 className=" text-lg px-2">Devenir Partenaire</h1>
+            <h1 className=" text-black text-lg px-2">Devenir Partenaire</h1>
           </div>
-          <div className="flex text-white items-center m-2">
+          <div className="flex text-white items-center m-2 flex-col bg-white p-20">
             <GiReceiveMoney size={30} color="orange" />
-            <h1 className=" text-lg px-2">Investir</h1>
-          </div>
-          <div className="flex text-white items-center m-2">
-            <AiOutlineQuestionCircle size={30} color="orange" />
-            <h1 className=" text-lg px-2">Qui sommes-nous</h1>
+            <h1 className=" text-black text-lg px-2">Investir dans l empire</h1>
           </div>
         </div>
       </div>
