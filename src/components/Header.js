@@ -1,16 +1,17 @@
 import React from "react";
 import { GiGoat } from "react-icons/gi";
+import { BiAlignJustify } from "react-icons/bi";
+
 function Header() {
   return (
     <div className="bg-black text-yellow-500 font-semibold p-8">
       <div className="flex  items-center justify-between">
         <div className=" flex items-center">
-          <GiGoat size={50} />
-          <h1 className="font-bold text-2xl">L'EMPIRE AKILIMALI</h1>
+          <GiGoat size={70} />
+          <h1 className="font-bold text-3xl mx-5">L'EMPIRE AKILIMALI</h1>
         </div>
         <div className="flex cursor-pointer">
-          <h1 className="mx-3"> Services</h1>
-          <h1 className="mx-3">Partenaire</h1>
+          <BiAlignJustify size={30} />
         </div>
       </div>
     </div>

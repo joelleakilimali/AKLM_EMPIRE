@@ -1,7 +1,11 @@
 import React from "react";
 import Header from "../components/Header";
 import { GiGrLinkNextGoat, GrLinkNext } from "react-icons/gr";
+import { GiReceiveMoney, GiShakingHands } from "react-icons/gi";
+import { FaHandshake } from "react-icons/fa";
+import { AiOutlineQuestionCircle } from "react-icons/ai";
 import "./home.css";
+
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { Carousel } from "react-responsive-carousel";
@@ -34,8 +38,8 @@ function Home() {
       <Header />
       <div className="  mt-16 conic-gradient(at left center, rgb(136, 19, 55), rgb(146, 64, 14), rgb(251, 113, 133))">
         <div className="flex justify-start items-center p-10 mx-5 mb-24 ">
-          <div>
-            <p className="text-3xl w-[70%] font-bold text-white">
+          <div className="flex justify-center">
+            <p className="text-4xl w-[70%] font-bold text-white">
               L'empire AKILIMALI est un empire qui offre des services dans le
               multi sectoriel There is no one who loves pain itself, who seeks
               after it and wants to have it, simply because it is pain..
@@ -90,7 +94,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="">
+      <div className="bg-white  ">
         <div className="flex justify-center py-2">
           <h1 className="text-2xl font-extrabold text-yellow-500 p-3 bg-black w-[200px] ">
             Notre Vision
@@ -102,7 +106,7 @@ function Home() {
               <img src="../assets/atblogo.jpg" alt="wbt" className="w-[40%]" />
             </div>
             <div className="flex justify-center">
-              <h1 className="text-white pt-2  w-[80%] font-bold">
+              <h1 className="text-black pt-2  w-[80%] font-bold">
                 Oeuvre de charite The term Lorem ipsum refers to those texts
                 which are incomprehensible, i.e. no one can make any logical
                 sense out of them, and they are created with the aim of
@@ -125,7 +129,7 @@ function Home() {
               <img src="../assets/webelong.png" alt="wbt" className="w-[40%]" />
             </div>
             <div className="flex justify-center">
-              <h1 className="text-white  w-[80%] font-bold">
+              <h1 className="text-black  w-[80%] font-bold">
                 Nous organisons vos mariages The term Lorem ipsum refers to
                 those texts which are incomprehensible, i.e. no one can make any
                 logical sense out of them, and they are created with the aim of
@@ -151,7 +155,7 @@ function Home() {
               />
             </div>
             <div className="flex justify-center">
-              <h1 className="text-white w-[80%] font-bold">
+              <h1 className="text-black w-[80%] font-bold">
                 Nos chevres du kongo central sont heureux malades
                 drepanocytairesThe term Lorem ipsum refers to those texts which
                 are incomprehensible, i.e. no one can make any logical sense out
@@ -174,7 +178,7 @@ function Home() {
               <img src="../assets/over.jpg" alt="wbt" className="w-[50%]" />
             </div>
             <div className="flex justify-center">
-              <h1 className="text-white pt-2  w-[80%] font-bold">
+              <h1 className="text-black pt-2  w-[80%] font-bold">
                 Projet de sensibilisation, depistage et accompagnement des
                 malades drepanocytairesThe term Lorem ipsum refers to those
                 texts which are incomprehensible, i.e. no one can make any
@@ -201,7 +205,7 @@ function Home() {
               />
             </div>
             <div className="flex justify-center">
-              <h1 className="text-white pt-2  w-[80%] font-bold">
+              <h1 className="text-black pt-2  w-[80%] font-bold">
                 Poursuivre ses etudes en Europe devient un jeux d'enfant avec
                 acacia academics i.e. no one can make any logical sense out of
                 them, and they are created with the aim of presenting to the
@@ -217,6 +221,52 @@ function Home() {
                 className="ml-5 cursor-pointer rounded-full bg-yellow-400 p-4"
               />
             </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="flex justify-center py-5">
+          <h1 className="text-2xl font-extrabold text-yellow-500 p-3 bg-black w-[250px] ">
+            Contactez-nous
+          </h1>
+        </div>
+
+        <div className="flex flex-col  text-white m-5 ">
+          <div className="flex p-2">
+            <h1> Adresse Email :</h1>
+            <input
+              type="text"
+              placeholder="email@gmail.com"
+              className=" text-black p-2 mx-5 w-[300px]"
+            />
+          </div>
+          <div className="flex p-2">
+            <h1>votre Message </h1>
+            <input
+              type="textarea"
+              placeholder="Tapez un message"
+              className=" text-black p-2 mx-5 w-[300px]"
+            />
+          </div>
+          <div className="flex items-center">
+            <button className="px-4 mx-3 rounded-lg font-bold bg-yellow-500  text-black">
+              Envoyer
+            </button>
+          </div>
+        </div>
+        <div className="flex justify-between my-5">
+          <div className="flex text-white items-center m-2">
+            <FaHandshake size={30} color="orange" />
+
+            <h1 className=" text-lg px-2">Devenir Partenaire</h1>
+          </div>
+          <div className="flex text-white items-center m-2">
+            <GiReceiveMoney size={30} color="orange" />
+            <h1 className=" text-lg px-2">Investir</h1>
+          </div>
+          <div className="flex text-white items-center m-2">
+            <AiOutlineQuestionCircle size={30} color="orange" />
+            <h1 className=" text-lg px-2">Qui sommes-nous</h1>
           </div>
         </div>
       </div>
